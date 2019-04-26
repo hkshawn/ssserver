@@ -21,7 +21,7 @@ chkconfig lvm2-monitor off
 yum install -y epel-release
 yum install -y yum-utils
 yum-config-manager --enable epel
-yum install -y python-pip
+##############以上自己增加###################
 yum install -y python-pip python-m2crypto
 #######记录命令历史#########
 echo 'HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S"' >> /etc/profile
