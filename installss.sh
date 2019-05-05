@@ -18,10 +18,6 @@ chkconfig netfs off
 chkconfig auditd off 
 chkconfig lvm2-monitor off 
 #######安装基础环境##########
-yum install -y epel-release
-yum install -y yum-utils
-yum-config-manager --enable epel
-##############以上自己增加###################
 yum install -y python-pip python-m2crypto
 #######记录命令历史#########
 echo 'HISTTIMEFORMAT="%Y-%m-%d %H:%M:%S"' >> /etc/profile
