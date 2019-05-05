@@ -31,4 +31,4 @@ sed -i 's/1024/65535/g' /etc/security/limits.d/90-nproc.conf
 pip install shadowsocks
 echo "/usr/bin/python /usr/bin/ssserver -p 443 -k BEGC8e@DeEDs#w -m aes-256-cfb -d start" > /root/ss.sh
 chmod +x /root/ss.sh
-echo "/root/ss.sh" >> /etc/rc.local
+echo  “/root/ss.sh” >> /etc/rc.local
